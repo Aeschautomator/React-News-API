@@ -5,7 +5,9 @@
   "dependencies": {
     "react": "^16.8.6",
     "react-dom": "^16.8.6",
-    "react-scripts": "2.1.8"
+    "react-scripts": "2.1.8",
+    "react-redux": "^6.0.0",
+    "redux": "^4.0.1"
   },
   "scripts": {
     "start": "react-scripts start",
@@ -22,18 +24,4 @@
     "not ie <= 11",
     "not op_mini all"
   ]
-  {
-    "name": "reactNativeAlgolia",
-    "version": "0.0.1",
-    "private": true,
-    "scripts": {
-      "start": "node node_modules/react-native/local-cli/cli.js start"
-    },
-    "dependencies": {
-      "algoliasearch": "^3.10.2",
-      "algoliasearch-helper": "^2.6.9",
-      "react": "^15.3.2",
-      "react-native": "^0.36.0"
-    }
-  }
 }
